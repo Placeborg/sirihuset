@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	min-height:100%;
+	margin:0px;
+	padding:0px;
+	background-color:#958E7C;
+}
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:justify;
+}
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+}
+h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+}
+h3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:-15px;
+}
+ul#list li{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	text-align:justify;
+}
+img.right{
+	float:right;
+	margin-left:30px;
+}
+img.left{
+	float:left;
+	margin-right:30px;
+}
+img.foto{
+	margin-left:-30px;
+}
+#maincontainer{
+	height:*;	
+	width:900px;
+	background-color:#000;
+}
+#header{
+	height:200px;
+	width:100%;
+	margin:0px;
+	color:#FFF;
+	background-color:#325187;
+	background-image:url(siteheader.png);
+}
+#title{
+	float:right;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:30;
+	padding-top:80px;
+	padding-right:30px
+}
+#navmenu{
+	height:*px;
+	width:*;
+	margin:0px;
+	padding-left:30px;
+	background-color:#8996B8;
+}
+#content{
+	height:auto;
+	width:*;
+	margin:0px;
+	padding:10px 30px;
+	color:#55565A;
+	background-color:#EAEDE6;
+}
+#footer{
+	height:18px;
+	width:*;
+	padding:10px 30px;
+	background-color:#55565A;
+	color:#FFF;
+}
+.center{
+	margin-left:auto;
+	margin-right:auto;
+}
+a:hover.nav_button{
+	background-color:#325187;
+}
+.footer_text{
+	float:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+/*Initialize*/
+ul#menu, ul#menu ul.sub-menu {
+    padding:0;
+    margin: 0;
+}
+ul#menu li, ul#menu ul.sub-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+/*Link Appearance*/
+ul#menu li a, ul#menu li ul.sub-menu li a {
+	font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background: #8996B8;
+    padding: 5px;
+    display:block;
+}
+/*Make the parent of sub-menu relative*/
+ul#menu li {
+    position: relative;
+}
+/*sub menu*/
+ul#menu li ul.sub-menu {
+    display:none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 120px;
+}
+ul#menu li ul.sub-menu li {
+    width: 100%;
+}
+ul#menu li:hover a{
+	background-color:#325187;
+}
+ul#menu ul.sub-menu li:hover a{
+	background-color:#325187;
+}
+ul#menu li:hover ul.sub-menu{
+    display:block;
+}
