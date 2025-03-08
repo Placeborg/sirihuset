@@ -1,5 +1,14 @@
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <HTML><HEAD>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NXLZ7XGEHY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NXLZ7XGEHY');
+</script>
 <TITLE>Siri-Huset</TITLE>
 </HEAD><BODY>
 <H1>404 - Not Found</H1>
